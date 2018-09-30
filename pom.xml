@@ -21,4 +21,9 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+
+        </repository>
+    </distributionManagement>
 </project>

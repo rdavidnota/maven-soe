@@ -18,6 +18,13 @@ pipeline{
             }
         }
 
+        stage ('Package Stage'){
+            steps {
+                withMaven(maven : 'default'){
+                    sh 'mvn package'
+                }
+            }
+        }
 
         stage ('Deployment Stage'){
             steps {
