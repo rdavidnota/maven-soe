@@ -28,10 +28,12 @@
         </dependency>
     </dependencies>
     <distributionManagement>
-        <site>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
             <id>ftp.server.id</id>
-            <!--<url>ftp://ftp.example.com</url>-->
+            <name>Corporate Repository</name>
             <url>ftp://190.150.50.100</url>
-        </site>
+            <layout>default</layout>
+        </repository>
     </distributionManagement>
 </project>
