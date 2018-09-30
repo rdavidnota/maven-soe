@@ -12,6 +12,12 @@
 
     <build>
         <finalName>proyecto</finalName>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+            </extension>
+        </extensions>
     </build>
     <dependencies>
         <dependency>
@@ -22,12 +28,10 @@
         </dependency>
     </dependencies>
     <distributionManagement>
-        <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>corp1</id>
-            <name>Corporate Repository</name>
+        <site>
+            <id>ftp.server.id</id>
+            <!--<url>ftp://ftp.example.com</url>-->
             <url>ftp://190.150.50.100</url>
-            <layout>default</layout>
-        </repository>
+        </site>
     </distributionManagement>
 </project>

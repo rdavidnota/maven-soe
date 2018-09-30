@@ -1,9 +1,12 @@
 <settings>
     <servers>
         <server>
-            <id>ftp://190.150.50.100</id>
+            <id>ftp.server.id</id>
             <username>appserver</username>
             <password>mercado.nota</password>
+            <configuration>
+                <endpointChecking>false</endpointChecking>
+            </configuration>
         </server>
     </servers>
 </settings>
