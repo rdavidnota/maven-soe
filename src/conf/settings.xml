@@ -3,10 +3,7 @@
         <server>
             <id>ftp.server.id</id>
             <username>appserver</username>
-            <password>mercado.nota</password>
-            <configuration>
-                <endpointChecking>false</endpointChecking>
-            </configuration>
+            <password>{yqz6nwHR/9YHEUnZyt0Ijt19HI6tK98g0iPUGt7HDzw=}</password>
         </server>
     </servers>
 </settings>
