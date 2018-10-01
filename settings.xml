@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>ftp.server.id</id>
+            <username>appserver</username>
+            <password>{yqz6nwHR/9YHEUnZyt0Ijt19HI6tK98g0iPUGt7HDzw=}</password>
+        </server>
+    </servers>
+</settings>
