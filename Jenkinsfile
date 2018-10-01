@@ -27,13 +27,7 @@ pipeline{
                 }
             }
 
-            stage ('Deployment Stage'){
-                steps {
-                    withMaven(maven : 'default'){
-                        sh 'mvn deploy'
-                    }
-                }
-            }
+
 
     }
 }
